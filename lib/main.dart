@@ -16,7 +16,10 @@ class MyApp extends StatelessWidget {
           title: Text('Flutter Demo'),
         ),
         body: Column(children: [
-          TextField(),
+          Container(
+            width: 1000,
+            child: TextField(),
+          ),
         ]),
       ),
     );

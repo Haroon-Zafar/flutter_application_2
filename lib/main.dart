@@ -17,6 +17,9 @@ class MyApp extends StatelessWidget {
         ),
         body: Column(
           children: [
+            SizedBox(
+              height: 500,
+            ),
             // Addind Text Field
             Container(
               child: Container(

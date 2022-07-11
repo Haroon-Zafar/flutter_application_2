@@ -28,6 +28,12 @@ class MyApp extends StatelessWidget {
                   child: TextField(),
                 ),
               ),
+              Container(
+                child: Container(
+                  width: 200,
+                  child: TextField(),
+                ),
+              ),
             ],
           ),
         ),

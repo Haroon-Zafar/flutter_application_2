@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               SizedBox(
                 height: 250,

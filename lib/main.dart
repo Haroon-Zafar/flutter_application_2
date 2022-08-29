@@ -14,12 +14,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text("Login"),
-          ],
+        body: Center(
+          child: Column(
+            children: [
+              Text("Login"),
+            ],
+          ),
         ),
       ),
     );

@@ -14,10 +14,25 @@ class MyApp extends StatelessWidget {
         body: Column(
           children: [
             Text("1st Column"),
+            SizedBox(
+              height: 10,
+            ),
             Text("2nd Column"),
+            SizedBox(
+              height: 10,
+            ),
             Text("3rd Column"),
+            SizedBox(
+              height: 10,
+            ),
             Text("4th Column"),
+            SizedBox(
+              height: 10,
+            ),
             Text("5th Column"),
+            SizedBox(
+              height: 10,
+            ),
             Text("6th Column"),
           ],
         ),

@@ -10,17 +10,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('Flutter Demo'),
+        body: Container(
+          height: 100,
+          width: 100,
+          color: Colors.pink,
+          child: Text("Hello World"),
         ),
-        body: Column(children: [
-          Container(
-            width: 1000,
-            child: TextField(),
-          ),
-        ]),
       ),
     );
   }

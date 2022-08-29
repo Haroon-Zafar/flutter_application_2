@@ -11,29 +11,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Column(
+        body: Row(
           children: [
-            Text("1st Column"),
-            SizedBox(
-              height: 10,
-            ),
-            Text("2nd Column"),
-            SizedBox(
-              height: 10,
-            ),
-            Text("3rd Column"),
-            SizedBox(
-              height: 10,
-            ),
-            Text("4th Column"),
-            SizedBox(
-              height: 10,
-            ),
-            Text("5th Column"),
-            SizedBox(
-              height: 10,
-            ),
-            Text("6th Column"),
+            Text("1st Row"),
+            SizedBox(height: 10),
+            Text("2nd Row"),
+            SizedBox(height: 10),
+            Text("3rd Row"),
+            SizedBox(height: 10),
+            Text("4th Row"),
+            SizedBox(height: 10),
+            Text("5th Row"),
           ],
         ),
       ),

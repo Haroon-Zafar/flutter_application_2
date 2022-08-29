@@ -14,13 +14,13 @@ class MyApp extends StatelessWidget {
         body: Row(
           children: [
             Text("1st Row"),
-            SizedBox(height: 10),
+            SizedBox(width: 10),
             Text("2nd Row"),
-            SizedBox(height: 10),
+            SizedBox(width: 10),
             Text("3rd Row"),
-            SizedBox(height: 10),
+            SizedBox(width: 10),
             Text("4th Row"),
-            SizedBox(height: 10),
+            SizedBox(width: 10),
             Text("5th Row"),
           ],
         ),

@@ -17,7 +17,46 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: Column(
             children: [
-              Text("Column wrapped with Center"),
+              Container(
+                height: 200,
+                width: 200,
+                color: Colors.pink,
+              ),
+              SizedBox(
+                height: 30,
+              ),
+              Container(
+                height: 200,
+                width: 200,
+                color: Colors.pink,
+              ),
+              SizedBox(
+                height: 30,
+              ),
+              Container(
+                height: 200,
+                width: 200,
+                color: Colors.pink,
+              ),
+              SizedBox(
+                height: 30,
+              ),
+              Container(
+                height: 200,
+                width: 200,
+                color: Colors.pink,
+              ),
+              SizedBox(
+                height: 30,
+              ),
+              Container(
+                height: 200,
+                width: 200,
+                color: Colors.pink,
+              ),
+              SizedBox(
+                height: 30,
+              ),
             ],
           ),
         ),

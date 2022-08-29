@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: Column(
             children: [
-              Text("Login"),
+              Text("Column wrapped with Center"),
             ],
           ),
         ),

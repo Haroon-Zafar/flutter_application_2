@@ -17,10 +17,22 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Center(child: Text("Login Page")),
         ),
-        body: Column(
-          children: [
-            TextField(),
-          ],
+        body: Center(
+          child: Column(
+            children: [
+              SizedBox(
+                height: 50,
+              ),
+              Container(
+                width: 200,
+                child: TextField(),
+              ),
+              Container(
+                width: 200,
+                child: TextField(),
+              ),
+            ],
+          ),
         ),
       ),
     );

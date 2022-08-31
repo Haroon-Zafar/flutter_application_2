@@ -14,53 +14,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: SingleChildScrollView(
-          child: Center(
-            child: Column(
-              children: [
-                Container(
-                  height: 200,
-                  width: 200,
-                  color: Colors.pink,
-                ),
-                SizedBox(
-                  height: 30,
-                ),
-                Container(
-                  height: 200,
-                  width: 200,
-                  color: Colors.pink,
-                ),
-                SizedBox(
-                  height: 30,
-                ),
-                Container(
-                  height: 200,
-                  width: 200,
-                  color: Colors.pink,
-                ),
-                SizedBox(
-                  height: 30,
-                ),
-                Container(
-                  height: 200,
-                  width: 200,
-                  color: Colors.pink,
-                ),
-                SizedBox(
-                  height: 30,
-                ),
-                Container(
-                  height: 200,
-                  width: 200,
-                  color: Colors.pink,
-                ),
-                SizedBox(
-                  height: 30,
-                ),
-              ],
-            ),
-          ),
+        appBar: AppBar(
+          title: Center(child: Text("Login Page")),
+        ),
+        body: Column(
+          children: [
+            TextField(),
+          ],
         ),
       ),
     );

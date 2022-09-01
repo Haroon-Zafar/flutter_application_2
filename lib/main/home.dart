@@ -11,7 +11,13 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text("Hello World"),
+      body: Center(
+        child: Text(
+          "Hello Flutter",
+          style: TextStyle(
+              color: Colors.red, fontSize: 30, fontWeight: FontWeight.bold),
+        ),
+      ),
     );
   }
 }

@@ -12,10 +12,9 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text(
-          "Hello Flutter",
-          style: TextStyle(
-              color: Colors.red, fontSize: 30, fontWeight: FontWeight.bold),
+        child: CircleAvatar(
+          radius: 100,
+          backgroundColor: Colors.yellow,
         ),
       ),
     );

@@ -14,6 +14,7 @@ class _HomeState extends State<Home> {
       body: Column(
         children: [
           Container(
+            margin: EdgeInsets.only(left: 30, top: 30),
             padding: EdgeInsets.only(left: 50, top: 85),
             child: Text("Home.dart File"),
             width: 200,

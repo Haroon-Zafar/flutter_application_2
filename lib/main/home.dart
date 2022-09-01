@@ -19,10 +19,7 @@ class _HomeState extends State<Home> {
         width: 200,
         height: 200,
         decoration: BoxDecoration(
-          gradient: LinearGradient(colors: [
-            Colors.red,
-            Colors.yellow,
-          ]),
+          color: Color(0xff4fe3e8),
           borderRadius: BorderRadius.circular(20),
         ),
       ),

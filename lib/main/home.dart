@@ -13,20 +13,19 @@ class _HomeState extends State<Home> {
     return Scaffold(
       body: Stack(
         children: [
-          Positioned(
-            left: 8,
-            top: 8,
+          Align(
+            alignment: Alignment.topLeft,
             child: Container(
-              color: Colors.black,
+              color: Colors.red,
               height: 100,
               width: 100,
             ),
           ),
           Positioned(
-            top: 0,
-            left: 0,
+            left: 10,
+            top: 10,
             child: Container(
-              color: Colors.red,
+              color: Colors.purple,
               height: 100,
               width: 100,
             ),

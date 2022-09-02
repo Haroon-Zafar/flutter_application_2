@@ -18,7 +18,7 @@ class _HomeState extends State<Home> {
         children: [
           ListTile(
             leading: CircleAvatar(
-              backgroundColor: Colors.green,
+              backgroundImage: AssetImage('assets/bg.png'),
               radius: 20,
             ),
             title: Text("Haroon"),
@@ -27,7 +27,7 @@ class _HomeState extends State<Home> {
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Text(
-                  "4:25 pm",
+                  "4:25 PM",
                 ),
                 CircleAvatar(
                   backgroundColor: Colors.green,

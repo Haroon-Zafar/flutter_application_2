@@ -13,10 +13,13 @@ class _HomeState extends State<Home> {
     return Scaffold(
       body: Stack(
         children: [
-          Container(
-            color: Colors.red,
-            height: 500,
-            width: 500,
+          Align(
+            alignment: Alignment.bottomCenter,
+            child: Container(
+              color: Colors.red,
+              height: 100,
+              width: 100,
+            ),
           ),
           Container(
             color: Colors.blue,

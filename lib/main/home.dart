@@ -21,6 +21,8 @@ class _HomeState extends State<Home> {
               backgroundColor: Colors.green,
               radius: 20,
             ),
+            title: Text("Haroon"),
+            subtitle: Text("hari_zafar"),
           ),
         ],
       ),

@@ -23,6 +23,18 @@ class _HomeState extends State<Home> {
             ),
             title: Text("Haroon"),
             subtitle: Text("hari_zafar"),
+            trailing: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Text(
+                  "4:25 pm",
+                ),
+                CircleAvatar(
+                  backgroundColor: Colors.green,
+                  radius: 10,
+                ),
+              ],
+            ),
           ),
         ],
       ),

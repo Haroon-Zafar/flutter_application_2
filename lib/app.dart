@@ -10,10 +10,21 @@ class App extends StatefulWidget {
 class _AppState extends State<App> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Text(
-        "App Page",
-        style: TextStyle(fontSize: 30),
+    return Center(
+      child: Scaffold(
+        body: Column(
+          children: [
+            Text(
+              "App Page",
+              style: TextStyle(fontSize: 30),
+            ),
+            ElevatedButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: Text("Back"))
+          ],
+        ),
       ),
     );
   }

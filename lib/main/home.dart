@@ -16,7 +16,12 @@ class _HomeState extends State<Home> {
     return Scaffold(
       body: Column(
         children: [
-          ListTile(),
+          ListTile(
+            leading: CircleAvatar(
+              backgroundColor: Colors.green,
+              radius: 20,
+            ),
+          ),
         ],
       ),
     );

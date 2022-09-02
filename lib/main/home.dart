@@ -13,6 +13,8 @@ class _HomeState extends State<Home> {
     return Scaffold(
       body: Container(
         color: Colors.purple,
+        height: MediaQuery.of(context).size.height,
+        width: MediaQuery.of(context).size.width,
       ),
     );
   }

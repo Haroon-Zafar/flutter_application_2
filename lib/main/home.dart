@@ -15,13 +15,16 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: [],
+        children: [
+          abc(),
+          abc(),
+        ],
       ),
     );
   }
 }
 
-Widget ListTile() {
+Widget abc() {
   return ListTile(
     leading: CircleAvatar(
       backgroundImage: AssetImage('assets/bg.png'),

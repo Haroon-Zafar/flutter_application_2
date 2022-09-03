@@ -25,7 +25,9 @@ class _HomeState extends State<Home> {
                 height: 95,
                 width: 95,
               ),
-              Column(
+              Padding(
+                padding: const EdgeInsets.only(left: 10.0),
+                child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text("ABC"),
@@ -33,7 +35,9 @@ class _HomeState extends State<Home> {
                     Text("ABC"),
                     Text("ABC"),
                     Text("ABC")
-                  ]),
+                  ],
+                ),
+              ),
             ]),
           ),
         ],

@@ -21,7 +21,7 @@ class _HomeState extends State<Home> {
   }
 }
 
-Widget abc() {
+Widget abc(var name) {
   return Container(
     color: Colors.yellow,
     height: 100,
@@ -37,7 +37,7 @@ Widget abc() {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text("ABC"),
+              Text(name),
             ],
           ),
         ),

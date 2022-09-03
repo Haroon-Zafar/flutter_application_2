@@ -25,6 +25,13 @@ class _HomeState extends State<Home> {
                 height: 95,
                 width: 95,
               ),
+              Column(children: [
+                Text("ABC"),
+                Text("ABC"),
+                Text("ABC"),
+                Text("ABC"),
+                Text("ABC")
+              ]),
             ]),
           ),
         ],

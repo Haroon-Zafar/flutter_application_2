@@ -14,35 +14,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          abc(),
-          abc(),
-        ],
-      ),
+      body: ListView(),
     );
   }
-}
-
-Widget abc() {
-  return ListTile(
-    leading: CircleAvatar(
-      backgroundImage: AssetImage('assets/bg.png'),
-      radius: 20,
-    ),
-    title: Text("Haroon"),
-    subtitle: Text("hari_zafar"),
-    trailing: Column(
-      mainAxisAlignment: MainAxisAlignment.spaceAround,
-      children: [
-        Text(
-          "4:25 PM",
-        ),
-        CircleAvatar(
-          backgroundColor: Colors.green,
-          radius: 10,
-        ),
-      ],
-    ),
-  );
 }

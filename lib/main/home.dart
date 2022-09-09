@@ -24,7 +24,12 @@ class _HomeState extends State<Home> {
       body: GridView.count(
           crossAxisCount: 2,
           children: List.generate(lst.length, (index) {
-            return Container();
+            return Container(
+              height: 200,
+              width: 200,
+              color: Colors.yellow,
+              child: Text(lst[index]),
+            );
           })),
     );
   }

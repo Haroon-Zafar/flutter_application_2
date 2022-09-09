@@ -23,6 +23,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
       body: GridView.count(
           crossAxisCount: 2,
+          crossAxisSpacing: 50,
           children: List.generate(lst.length, (index) {
             return Container(
               height: 200,

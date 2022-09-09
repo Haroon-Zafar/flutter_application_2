@@ -24,8 +24,10 @@ class _HomeState extends State<Home> {
       body: ListView.builder(
           itemCount: lst.length,
           itemBuilder: (context, index) {
-            return ListTile(
-              title: Text(lst[index]),
+            return Container(
+              height: 200,
+              width: 200,
+              child: Image.network(lst[index]),
             );
           }),
     );

@@ -13,9 +13,6 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   var lst = [
     "https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fyc3xlbnwwfHwwfHw%3D&w=1000&q=80",
-    "Ahmed",
-    "Zain",
-    "Ali"
   ];
   var age = ["18", "19", "20", "21"];
   @override

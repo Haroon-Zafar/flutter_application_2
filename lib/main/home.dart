@@ -24,7 +24,7 @@ class _HomeState extends State<Home> {
       body: GridView.count(
           crossAxisCount: 3,
           crossAxisSpacing: 20,
-          mainAxisSpacing: 50,
+          mainAxisSpacing: 20,
           children: List.generate(lst.length, (index) {
             return Container(
               height: 200,

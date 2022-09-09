@@ -22,7 +22,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: GridView.count(
-          crossAxisCount: 2,
+          crossAxisCount: 3,
           crossAxisSpacing: 50,
           mainAxisSpacing: 50,
           children: List.generate(lst.length, (index) {

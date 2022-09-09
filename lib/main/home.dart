@@ -26,12 +26,14 @@ class _HomeState extends State<Home> {
           crossAxisSpacing: 20,
           mainAxisSpacing: 20,
           children: List.generate(lst.length, (index) {
-            return Container(
-              height: 200,
-              width: 200,
-              color: Colors.yellow,
-              child: Center(child: Text(lst[index])),
-            );
+            return Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Container(
+                  color: Colors.yellow,
+                  child: Center(
+                    child: Text(lst[index]),
+                  ),
+                ));
           })),
     );
   }

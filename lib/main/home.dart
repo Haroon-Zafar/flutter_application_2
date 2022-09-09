@@ -30,7 +30,7 @@ class _HomeState extends State<Home> {
               height: 200,
               width: 200,
               color: Colors.yellow,
-              child: Text(lst[index]),
+              child: Center(child: Text(lst[index])),
             );
           })),
     );

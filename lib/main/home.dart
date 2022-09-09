@@ -11,17 +11,23 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  var lst = ["Haroon", "Ahmed", "Zain", "Ali"];
-  var age = ["18", "19", "20", "21", "22"];
+  var lst = [
+    "https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fyc3xlbnwwfHwwfHw%3D&w=1000&q=80",
+    "Ahmed",
+    "Zain",
+    "Ali"
+  ];
+  var age = ["18", "19", "20", "21"];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView.builder(
           itemCount: lst.length,
           itemBuilder: (context, index) {
-            return ListTile(
-              title: Text(lst[index]),
-              subtitle: Text(age[index]),
+            return Container(
+              height: 200,
+              width: 200,
+              child: Image.asset(""),
             );
           }),
     );

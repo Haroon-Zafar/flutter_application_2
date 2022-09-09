@@ -19,7 +19,10 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: GridView.count(crossAxisCount: )
+      body: GridView.count(
+        crossAxisCount: 2,
+        children: [],
+      ),
     );
   }
 }

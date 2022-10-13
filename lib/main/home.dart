@@ -23,6 +23,7 @@ class _HomeState extends State<Home> {
       // we can take Drawer in Scaffold.
       // calling Drawer() class.
       drawer: Drawer(
+        // Drawer Take children which is ListView.
         child: ListView(
           children: [
             DrawerHeader(

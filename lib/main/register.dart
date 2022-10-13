@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Register extends StatefulWidget {
-  const Register({Key? key}) : super(key: key);
+  // const Register({Key? key}) : super(key: key);
 
   @override
   State<Register> createState() => _RegisterState();
@@ -10,6 +10,10 @@ class Register extends StatefulWidget {
 class _RegisterState extends State<Register> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      child: Center(
+        child: Text("Register"),
+      ),
+    );
   }
 }

@@ -19,18 +19,26 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
         title: Text("Drawer Example"),
       ),
-      
-      // we can take Drawer in Scaffold.
-      // calling Drawer() class. 
-      drawer: Drawer(
-        child: ,
-      ),
 
+      // we can take Drawer in Scaffold.
+      // calling Drawer() class.
+      drawer: Drawer(
+        child: ListView(
+          children: [
+            DrawerHeader(
+              child: Container(
+                color: Colors.yellow,
+              ),
+            ),
+            ListTile(
+              title: Text("ABC LIST TILE"),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
-
-
 
 // Widget   (var name) {
 //   return Container(

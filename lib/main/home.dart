@@ -2,6 +2,8 @@ import 'dart:js';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/app.dart';
+import 'package:flutter_application_2/main/login.dart';
+import 'package:flutter_application_2/main/register.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -21,13 +23,16 @@ class _HomeState extends State<Home> {
           appBar: AppBar(
             // tabs: always list of widgets inside Tab
             title: TabBar(tabs: [
-              Tab(child: Text("Register")),
               Tab(child: Text("Login")),
+              Tab(child: Text("Register")),
             ]),
           ),
           // TabBarView is used to show the pages of the tabs
           body: TabBarView(
-            children: [],
+            children: [
+              Login(),
+              Register(),
+            ],
           ),
         ));
   }

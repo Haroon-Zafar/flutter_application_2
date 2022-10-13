@@ -23,6 +23,7 @@ class _HomeState extends State<Home> {
           appBar: AppBar(
             // tabs: always list of widgets inside Tab
             // we can use bottom: and title: alternatively.
+            title: Center(child: Text("Hello")),
             bottom: TabBar(
               // unselectedLabelColor : color of unselected tab
               unselectedLabelColor: Colors.grey,

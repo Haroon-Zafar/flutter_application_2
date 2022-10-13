@@ -25,6 +25,10 @@ class _HomeState extends State<Home> {
               Tab(child: Text("Login")),
             ]),
           ),
+          // TabBarView is used to show the pages of the tabs
+          body: TabBarView(
+            children: [],
+          ),
         ));
   }
 }

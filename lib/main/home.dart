@@ -11,37 +11,21 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  var lst = [
-    "Ali",
-    "Ahmed",
-    "Huzaifa",
-    "Bilal",
-  ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: GridView.count(
-          crossAxisCount: 3,
-          crossAxisSpacing: 20,
-          mainAxisSpacing: 20,
-          children: List.generate(lst.length, (index) {
-            return Padding(
-                padding: EdgeInsets.all(8.0),
-                child: Container(
-                  color: Colors.yellow,
-                  child: Center(
-                    child: Text(lst[index]),
-                  ),
-                ));
-          })),
+      // we can take appBar too in Scaffold.
+      // Drawer is a widget which is used to create a drawer in the app.
+      appBar: AppBar(
+        title: Text("Drawer Example"),
+      ),
     );
   }
 }
 
 
 
-// Widget abc(var name) {
+// Widget   (var name) {
 //   return Container(
 //     color: Colors.yellow,
 //     height: 100,

@@ -19,6 +19,13 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
         title: Text("Drawer Example"),
       ),
+      
+      // we can take Drawer in Scaffold.
+      // calling Drawer() class. 
+      drawer: Drawer(
+        child: ,
+      ),
+
     );
   }
 }

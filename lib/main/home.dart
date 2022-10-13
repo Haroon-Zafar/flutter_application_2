@@ -15,7 +15,11 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     // length parameter tells that how much total items you want to show in the tab list. If we write 2 for Login and Signup ( for example )
     // child : Scaffold() beacuse we want to return pages
-    return DefaultTabController(length: 2, child: Scaffold());
+    return DefaultTabController(length: 2, child: Scaffold(
+      appBar: AppBar(
+        title: TabBar(tabs: ),
+      ),
+    ));
   }
 }
 

@@ -22,10 +22,16 @@ class _HomeState extends State<Home> {
         child: Scaffold(
           appBar: AppBar(
             // tabs: always list of widgets inside Tab
-            title: TabBar(tabs: [
-              Tab(child: Text("Login")),
-              Tab(child: Text("Register")),
-            ]),
+            title: TabBar(
+              // unselectedLabelColor : color of unselected tab
+              unselectedLabelColor: Colors.grey,
+              labelColor: Colors.red,
+              indicatorColor: Colors.red,
+              tabs: [
+                Tab(child: Text("Login")),
+                Tab(child: Text("Register")),
+              ],
+            ),
           ),
           // TabBarView is used to show the pages of the tabs
           body: TabBarView(

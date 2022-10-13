@@ -27,9 +27,8 @@ class _HomeState extends State<Home> {
         child: ListView(
           children: [
             DrawerHeader(
-              child: Container(
-                color: Colors.yellow,
-              ),
+              child:
+                  Container(color: Colors.yellow[400], child: Text("Header")),
             ),
             ListTile(
               title: Text("ABC LIST TILE"),

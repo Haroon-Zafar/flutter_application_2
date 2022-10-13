@@ -22,10 +22,11 @@ class _HomeState extends State<Home> {
         child: Scaffold(
           appBar: AppBar(
             // tabs: always list of widgets inside Tab
-            title: TabBar(
+            // we can use bottom: and title: alternatively.
+            bottom: TabBar(
               // unselectedLabelColor : color of unselected tab
               unselectedLabelColor: Colors.grey,
-              labelColor: Colors.red,
+              labelColor: Colors.red[300],
               indicatorColor: Colors.red,
               tabs: [
                 Tab(child: Text("Login")),

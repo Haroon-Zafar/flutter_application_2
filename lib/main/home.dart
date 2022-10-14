@@ -17,6 +17,7 @@ class _HomeState extends State<Home> {
   // pass this variable in Text $text
   var text = "";
   // Set State **** Most Important ****
+  // if you want to perform any action you use `set State()`
 
   // I am making two functions for Button 1 and Button 2
 
@@ -46,11 +47,12 @@ class _HomeState extends State<Home> {
             SizedBox(
               height: 20,
             ),
-            ElevatedButton(onPressed: () {}, child: Text("Make 1")),
+            ElevatedButton(onPressed: one, child: Text("Make 1")),
             SizedBox(
               height: 20,
             ),
-            ElevatedButton(onPressed: () {}, child: Text("Make 2")),
+            // two is the function name.
+            ElevatedButton(onPressed: two, child: Text("Make 2")),
           ],
         ),
       ),

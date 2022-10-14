@@ -17,32 +17,16 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     // length parameter tells that how much total items you want to show in the tab list. If we write 2 for Login and Signup ( for example )
     // child : Scaffold() beacuse we want to return pages
-    return DefaultTabController(
-        length: 2,
-        child: Scaffold(
-          appBar: AppBar(
-            // tabs: always list of widgets inside Tab
-            // we can use bottom: and title: alternatively.
-            title: Center(child: Text("Hello")),
-            bottom: TabBar(
-              // unselectedLabelColor : color of unselected tab
-              unselectedLabelColor: Colors.grey,
-              labelColor: Colors.red[300],
-              indicatorColor: Colors.red,
-              tabs: [
-                Tab(child: Text("Login")),
-                Tab(child: Text("Register")),
-              ],
-            ),
-          ),
-          // TabBarView is used to show the pages of the tabs
-          body: TabBarView(
-            children: [
-              Login(),
-              Register(),
-            ],
-          ),
-        ));
+    return Scaffold(
+      body: Column(
+        children: [
+          Text("Text: "),
+          ElevatedButton(onPressed: () {}, child: Text("Make 1")),
+          ElevatedButton(onPressed: () {}, child: Text("Make 1")),
+          ElevatedButton(onPressed: () {}, child: Text("Make 1")),
+        ],
+      ),
+    );
   }
 }
 

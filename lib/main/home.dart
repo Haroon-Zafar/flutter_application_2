@@ -13,6 +13,10 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  // We want that when we press Button 1 Text will show 1 and vice versa.
+  // pass this variable in Text $text
+  var text = "";
+
   @override
   Widget build(BuildContext context) {
     // length parameter tells that how much total items you want to show in the tab list. If we write 2 for Login and Signup ( for example )
@@ -20,11 +24,18 @@ class _HomeState extends State<Home> {
     return Scaffold(
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Text: "),
+            // passing the variable name here. For dynamic text
+            Text("Text: $text"),
+            SizedBox(
+              height: 20,
+            ),
             ElevatedButton(onPressed: () {}, child: Text("Make 1")),
-            ElevatedButton(onPressed: () {}, child: Text("Make 1")),
-            ElevatedButton(onPressed: () {}, child: Text("Make 1")),
+            SizedBox(
+              height: 20,
+            ),
+            ElevatedButton(onPressed: () {}, child: Text("Make 2")),
           ],
         ),
       ),

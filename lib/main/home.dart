@@ -16,6 +16,21 @@ class _HomeState extends State<Home> {
   // We want that when we press Button 1 Text will show 1 and vice versa.
   // pass this variable in Text $text
   var text = "";
+  // Set State **** Most Important ****
+
+  // I am making two functions for Button 1 and Button 2
+
+  one() {
+    setState(() {
+      text = "1";
+    });
+  }
+
+  two() {
+    setState(() {
+      text = "2";
+    });
+  }
 
   @override
   Widget build(BuildContext context) {

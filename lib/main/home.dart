@@ -27,15 +27,9 @@ class _HomeState extends State<Home> {
     });
   }
 
-  one() {
+  decrement() {
     setState(() {
-      text = 1;
-    });
-  }
-
-  two() {
-    setState(() {
-      text = 2;
+      text = text - 1;
     });
   }
 
@@ -54,11 +48,11 @@ class _HomeState extends State<Home> {
               height: 20,
             ),
             ElevatedButton(onPressed: increment, child: Text("Make 1")),
-            // SizedBox(
-            //   height: 20,
-            // ),
-            // // two is the function name. When we press the button we call the function
-            // ElevatedButton(onPressed: two, child: Text("Make 2")),
+            SizedBox(
+              height: 20,
+            ),
+            // two is the function name. When we press the button we call the function
+            ElevatedButton(onPressed: decrement, child: Text("Make 2")),
           ],
         ),
       ),

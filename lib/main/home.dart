@@ -18,13 +18,15 @@ class _HomeState extends State<Home> {
     // length parameter tells that how much total items you want to show in the tab list. If we write 2 for Login and Signup ( for example )
     // child : Scaffold() beacuse we want to return pages
     return Scaffold(
-      body: Column(
-        children: [
-          Text("Text: "),
-          ElevatedButton(onPressed: () {}, child: Text("Make 1")),
-          ElevatedButton(onPressed: () {}, child: Text("Make 1")),
-          ElevatedButton(onPressed: () {}, child: Text("Make 1")),
-        ],
+      body: Center(
+        child: Column(
+          children: [
+            Text("Text: "),
+            ElevatedButton(onPressed: () {}, child: Text("Make 1")),
+            ElevatedButton(onPressed: () {}, child: Text("Make 1")),
+            ElevatedButton(onPressed: () {}, child: Text("Make 1")),
+          ],
+        ),
       ),
     );
   }
